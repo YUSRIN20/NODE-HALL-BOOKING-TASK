@@ -41,7 +41,7 @@ let BookingRoom = []
 // Function to get details of all rooms
 export const getRoomDetail = (req, res) => {
     // Responds with all room details
-  res.status(200).json({ message: "Fetch All Room successfully",
+  res.status(200).json({ message: "Fetched All Room successfully",
     All_Rooms:roomData
 });
 };
